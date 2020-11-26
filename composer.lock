@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac753ae2702317b354e7eb283f28cbc",
+    "content-hash": "3fc887eb768fd4a74c2d4075e0032095",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1596,6 +1596,46 @@
                 "serialize"
             ],
             "time": "2020-11-07T02:01:34+00:00"
+        },
+        {
+            "name": "patosmack/mercado-pago",
+            "version": "1.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/patosmack/mercado-pago.git",
+                "reference": "35997f58f1094db3fb7115bb66eb9a6fbea25b38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/patosmack/mercado-pago/zipball/35997f58f1094db3fb7115bb66eb9a6fbea25b38",
+                "reference": "35997f58f1094db3fb7115bb66eb9a6fbea25b38",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Patosmack\\MercadoPago\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patricio Alvarez",
+                    "email": "patosmack@gmail.com"
+                }
+            ],
+            "description": "Mercado Pago API SDK for Laravel",
+            "keywords": [
+                "mercadopago",
+                "sdk"
+            ],
+            "time": "2018-10-22T23:47:09+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -6867,7 +6907,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "patosmack/mercado-pago": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
